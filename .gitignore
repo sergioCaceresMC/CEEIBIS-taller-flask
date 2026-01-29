@@ -1,0 +1,28 @@
+# =====================
+# Entorno virtual
+# =====================
+.venv/
+venv/
+ENV/
+
+# =====================
+# Archivos Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =====================
+# Flask
+# =====================
+instance/
+.webassets-cache
+
+# =====================
+# Variables de entorno
+# =====================
+.env
+.env.*
+*.env

@@ -1,0 +1,134 @@
+[
+  {
+    "curso": "introducción a python",
+    "viable": true,
+    "exigencia": "muy ligero",
+    "SO": "ubuntu",
+    "ram": 2,
+    "maxAlumnos": 20,
+    "recomendableAlumno": 15,
+    "notaBreve": "Ideal con VS Code Server o Jupyter; evita entornos gráficos completos."
+  },
+  {
+    "curso": "java básico (netbeans + vscode)",
+    "viable": true,
+    "exigencia": "pesado",
+    "SO": "ubuntu",
+    "ram": 3,
+    "maxAlumnos": 12,
+    "recomendableAlumno": 8,
+    "notaBreve": "NetBeans consume mucha RAM; limita recursos por VM."
+  },
+  {
+    "curso": "photopea (uso web)",
+    "lag": true,
+    "viable": true,
+    "exigencia": "muy ligero",
+    "SO": "ubuntu",
+    "ram": 1,
+    "maxAlumnos": 25,
+    "recomendableAlumno": 20,
+    "notaBreve": "El consumo es casi todo del lado del alumno; tu servidor apenas sufre."
+  },
+  {
+    "curso": "flask y docker (despliegue)",
+    "viable": true,
+    "exigencia": "medio",
+    "SO": "ubuntu",
+    "ram": 2,
+    "maxAlumnos": 15,
+    "recomendableAlumno": 12,
+    "notaBreve": "Perfecto como VPS educativo; usa reverse proxy o Cloudflare Tunnel."
+  },
+  {
+    "curso": "node js",
+    "viable": true,
+    "exigencia": "ligero",
+    "SO": "ubuntu",
+    "ram": 1.5,
+    "maxAlumnos": 20,
+    "recomendableAlumno": 15,
+    "notaBreve": "Cuidado con npm install simultáneo; picos cortos de CPU."
+  },
+  {
+    "curso": "react",
+    "viable": true,
+    "exigencia": "medio",
+    "SO": "ubuntu",
+    "ram": 2,
+    "maxAlumnos": 15,
+    "recomendableAlumno": 12,
+    "notaBreve": "npm y bundlers generan picos; evita hacerlo todos a la vez."
+  },
+  {
+    "curso": "machine learning con scikit-learn",
+    "viable": true,
+    "exigencia": "medio",
+    "SO": "ubuntu",
+    "ram": 2,
+    "maxAlumnos": 15,
+    "recomendableAlumno": 10,
+    "notaBreve": "No usar tensorflow ni pytorch; datasets pequeños y ML clásico."
+  },
+  {
+    "curso": "curso de redes con LXC",
+    "viable": true,
+    "exigencia": "ligero",
+    "SO": "debian",
+    "ram": 1,
+    "maxAlumnos": 20,
+    "recomendableAlumno": 15,
+    "notaBreve": "LXC es ideal para networking; muy eficiente en RAM."
+  },
+  {
+    "curso": "curso de LXC",
+    "viable": true,
+    "exigencia": "muy ligero",
+    "SO": "debian",
+    "ram": 1,
+    "maxAlumnos": 25,
+    "recomendableAlumno": 20,
+    "notaBreve": "Excelente para homelab; consumo mínimo frente a VMs."
+  },
+  {
+    "curso": "n8n (automatización)",
+    "viable": true,
+    "exigencia": "ligero",
+    "SO": "ubuntu",
+    "ram": 1.5,
+    "maxAlumnos": 15,
+    "recomendableAlumno": 12,
+    "notaBreve": "Mejor en Docker o LXC; cuidado con flujos muy complejos."
+  },
+  {
+    "curso": "wordpress usando local",
+    "viable": true,
+    "exigencia": "medio",
+    "SO": "ubuntu",
+    "ram": 2.5,
+    "maxAlumnos": 12,
+    "recomendableAlumno": 10,
+    "notaBreve": "MySQL y PHP consumen RAM; mejor usar LXC si es posible."
+  },
+  {
+    "curso": "figma o penpot",
+    "viable": true,
+    "exigencia": "muy ligero",
+    "SO": "ubuntu",
+    "ram": 1,
+    "maxAlumnos": 25,
+    "recomendableAlumno": 20,
+    "notaBreve": "Uso principalmente web; servidor solo facilita el acceso."
+  },
+  {
+    "curso": "corrección de audio con audacity",
+    "lag": true,
+    "viable": true,
+    "exigencia": "medio",
+    "SO": "ubuntu",
+    "ram": 2,
+    "maxAlumnos": 12,
+    "recomendableAlumno": 8,
+    "notaBreve": "Procesamiento de audio consume CPU; mejor no hacerlo todos a la vez."
+  }
+]

@@ -1,0 +1,120 @@
+{% extends "layout.html" %}{% block body %}
+
+<!-- Sección 1: Hero/Jumbotron -->
+<section class="py-5 bg-light">
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-bold mb-4">Bienvenido a nuestro sitio</h1>
+        <p class="lead mb-4">
+          Una solución moderna para tus necesidades. Ofrecemos servicios de
+          calidad con resultados garantizados.
+        </p>
+        <a href="#" class="btn btn-primary btn-lg me-3">Comenzar ahora</a>
+        <a href="#" class="btn btn-outline-secondary btn-lg">Saber más</a>
+      </div>
+      <div class="col-lg-6">
+        <img
+          src="https://picsum.photos/600/400?random=1"
+          class="img-fluid rounded shadow"
+          alt="Imagen principal"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección 2: Características -->
+<section class="py-5">
+  <div class="container py-5">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="fw-bold mb-3">Nuestras Características</h2>
+        <p class="text-muted">Descubre lo que nos hace diferentes</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card border-0 text-center h-100 shadow-sm">
+          <div class="card-body p-4">
+            <div
+              class="bg-primary bg-opacity-10 text-primary rounded-circle d-inline-flex p-3 mb-4"
+            >
+              <i class="bi bi-lightning-charge fs-2"></i>
+            </div>
+            <h5 class="card-title">Rápido y Eficiente</h5>
+            <p class="card-text">
+              Procesos optimizados para ofrecer resultados en tiempo récord sin
+              comprometer la calidad.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 text-center h-100 shadow-sm">
+          <div class="card-body p-4">
+            <div
+              class="bg-success bg-opacity-10 text-success rounded-circle d-inline-flex p-3 mb-4"
+            >
+              <i class="bi bi-shield-check fs-2"></i>
+            </div>
+            <h5 class="card-title">Seguro y Confiable</h5>
+            <p class="card-text">
+              Implementamos las mejores prácticas de seguridad para proteger tus
+              datos e información.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 text-center h-100 shadow-sm">
+          <div class="card-body p-4">
+            <div
+              class="bg-warning bg-opacity-10 text-warning rounded-circle d-inline-flex p-3 mb-4"
+            >
+              <i class="bi bi-people fs-2"></i>
+            </div>
+            <h5 class="card-title">Soporte 24/7</h5>
+            <p class="card-text">
+              Nuestro equipo de soporte está disponible para ayudarte en
+              cualquier momento del día.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección 3: Galería/Productos -->
+<section class="py-5 bg-light">
+  <div class="container py-5">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="fw-bold mb-3">Galería de Imágenes</h2>
+        <p class="text-muted">Algunos ejemplos de nuestro trabajo</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      {% for i in range(3) %}
+      <div class="col-md-4">
+        <div class="card border-0 overflow-hidden shadow-sm">
+          <img
+            src="https://picsum.photos/400/300"
+            class="card-img-top"
+            alt="Proyecto 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Proyecto Innovador</h5>
+            <p class="card-text">
+              Una solución disruptiva que ha transformado el mercado.
+            </p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}
